@@ -1,3 +1,7 @@
+## Jakub Woś
+## 288581
+## informatyka ogolnoakademicka
+
 # Dokumentacja Projektu: Analiza Cen Nieruchomości i Detekcja Fałszywych Wiadomości
 ## 1. Cel Projektu
 
