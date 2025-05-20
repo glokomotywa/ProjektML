@@ -1,5 +1,5 @@
-Dokumentacja Projektu: Analiza Cen Nieruchomości i Detekcja Fałszywych Wiadomości
-1. Cel Projektu
+# Dokumentacja Projektu: Analiza Cen Nieruchomości i Detekcja Fałszywych Wiadomości
+## 1. Cel Projektu
 
 Projekt składa się z dwóch niezależnych modułów, których celem jest demonstracja zastosowania metod uczenia maszynowego w dwóch różnych dziedzinach:
 
@@ -8,8 +8,8 @@ Projekt składa się z dwóch niezależnych modułów, których celem jest demon
     Fake News Detection – klasyfikacja tekstów na prawdziwe i fałszywe za pomocą sieci neuronowych.
 
 Oba programy wykorzystują rzeczywiste zbiory danych oraz zaawansowane techniki przetwarzania i modelowania, aby osiągnąć swoje cele.
-2. Opis Projektów
-2.1 House Prices Prediction
+## 2. Opis Projektów
+### 2.1 House Prices Prediction
 Cel
 
 Przewidywanie mediany cen domów (MEDV) w Bostonie na podstawie wybranych cech, takich jak liczba pokoi (RM), odległość od centrów zatrudnienia (DIS), czy wskaźnik przestępczości (CRIM).
@@ -57,7 +57,7 @@ Program porównuje wydajność modeli i wskazuje najlepszy na podstawie R². Prz
 
 Najlepszy model: Random Forest (R² = 0.872)
 
-2.2 Fake News Detection
+### 2.2 Fake News Detection
 Cel
 
 Klasyfikacja wypowiedzi politycznych na prawdziwe (half-true, mostly-true, true) i fałszywe (pants-fire, false, barely-true).
@@ -115,7 +115,7 @@ Przykładowy raport dla modelu BiLSTM:
       FALSE       0.65      0.60      0.62  
        TRUE       0.62      0.67      0.64  
 
-3. Źródła Danych i Zasoby
+## 3. Źródła Danych i Zasoby
 
     Boston Housing:
 
@@ -129,7 +129,7 @@ Przykładowy raport dla modelu BiLSTM:
 
         Oficjalne embeddingi Stanford: glove.6B.300d.txt.
 
-4. Wnioski
+## 4. Wnioski
 
     House Prices Prediction:
     Modele zespołowe (Random Forest, XGBoost) osiągają lepszą wydajność niż modele liniowe dzięki uwzględnieniu nieliniowych zależności.
