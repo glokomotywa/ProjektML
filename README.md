@@ -107,27 +107,20 @@ Działanie Programu
 
         Wizualizacja: Macierze pomyłek i krzywe uczenia.
 
-Wyniki
-
-Przykładowy raport dla modelu BiLSTM:
-
-              precision    recall  f1-score  
-      FALSE       0.65      0.60      0.62  
-       TRUE       0.62      0.67      0.64  
 
 ## 3. Źródła Danych i Zasoby
 
     Boston Housing:
 
-        Modyfikacja oryginalnego zbioru z Kaggle, dostępna na GitHub Gist.
+        Modyfikacja oryginalnego zbioru z Kaggle, dostępna na GitHub Gist. (https://gist.github.com/nnbphuong/def91b5553736764e8e08f6255390f37)
 
     LIAR (Fake News):
 
-        Pobrany z repozytorium mdepak.
+        Pobrany z repozytorium mdepak. (https://github.com/mdepak/fake-news-detection-resources)
 
     GloVe Embeddings:
 
-        Oficjalne embeddingi Stanford: glove.6B.300d.txt.
+        Oficjalne embeddingi Stanford: glove.6B.300d.txt. (https://nlp.stanford.edu/projects/glove/)
 
 ## 4. Wnioski
 
